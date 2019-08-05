@@ -5,6 +5,7 @@ import dash_html_components as html
 import plotly.graph_objects as go
 import pandas as pd
 
+#find better css
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
